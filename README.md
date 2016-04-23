@@ -28,3 +28,5 @@ try complete all the tasks below</p>
 
 <p>Use maven command to boot mvn spring-boot:run</p>
 <p>mvn package && java -jar target/gs-spring-boot-0.1.0.jar</p>
+
+<p>MAVEN_OPTS=-Xmx1024m -XX:MaxPermSize=128M -Djava.security.egd=file:/dev/./urandom</p>
