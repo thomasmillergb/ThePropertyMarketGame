@@ -2,7 +2,6 @@ package org.thomasmillergb.thepropertymarketgame.modal;
 
 import com.google.common.collect.ImmutableList;
 
-import java.awt.*;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -18,7 +17,6 @@ public class House {
     private int offersBeforeRejections_;
     private int rooms_;
     private List<HouseExtras> houseExtras_;
-    private Color dateTime_;
 
     /**
      * Instantiates a new House.
@@ -37,7 +35,6 @@ public class House {
         offersBeforeRejections_ = offersBeforeRejections;
         rooms_ = rooms;
         houseExtras_ = houseExtras;
-        dateTime_ = Color.BLACK;
 
     }
 
@@ -149,7 +146,4 @@ public class House {
         houseExtras_ = houseExtras;
     }
 
-    public Color getDateTime() {
-        return dateTime_;
-    }
 }

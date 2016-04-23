@@ -18,8 +18,10 @@ public class HomeController {
 
     @RequestMapping(value = RestApi.home, method = RequestMethod.GET)
     public House home() {
+        ArrayList<HouseExtras> houseExtrases = new ArrayList<>();
+        houseExtrases.add(HouseExtras.BASEMENT);
 
-        return new House(new BigDecimal(100000), BigDecimal.ONE, BigDecimal.ONE, 3, 3, new ArrayList<HouseExtras>());
+        return new House(new BigDecimal(100000), BigDecimal.ONE, BigDecimal.ONE, 3, 3, houseExtrases);
     }
 
 }
