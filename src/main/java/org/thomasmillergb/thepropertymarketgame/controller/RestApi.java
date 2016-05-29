@@ -6,5 +6,11 @@ package org.thomasmillergb.thepropertymarketgame.controller;
 public class RestApi {
 
     public static final String endpointPrefix = "/api/v1/";
-    static final String home = "home";
+    static final        String home           = "home";
+    static final        String start          = "start";
+    static final        String pause          = "pause";
+    static final        String end            = "end";
+    static final        String state          = "state";
+
+
 }

@@ -4,11 +4,14 @@
 
 package org.thomasmillergb.thepropertymarketgame.game;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 /**
  * @author Thomas
  *         Created by Thomas on 29/05/2016.
  */
-public enum State {
+@JsonFormat(shape = JsonFormat.Shape.OBJECT)
+enum State {
     NEW("New Game"),
     INITIALISE("Initialising Game"),
     IN_PROGRESS("Game in Progress"),

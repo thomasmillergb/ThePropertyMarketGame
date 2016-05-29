@@ -11,20 +11,20 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class House implements Property {
-    private BigDecimal value_;
-    private BigDecimal rentValue_;
-    private boolean occupied_;
-    private BigDecimal minimumAcceptance_;
-    private BigDecimal raise_;
-    private int offersBeforeRejections_;
-    private int rooms_;
+    private BigDecimal        value_;
+    private BigDecimal        rentValue_;
+    private boolean           occupied_;
+    private BigDecimal        minimumAcceptance_;
+    private BigDecimal        raise_;
+    private int               offersBeforeRejections_;
+    private int               rooms_;
     private List<HouseExtras> houseExtras_;
 
     public House(BigDecimal value, BigDecimal rentValue, boolean occupied, BigDecimal raise, int offersBeforeRejections, int rooms, List<HouseExtras> houseExtras) {
-        value_ = value;
-        rentValue_ = rentValue;
+        value_ = value.setScale(2, BigDecimal.ROUND_CEILING);
+        rentValue_ = rentValue.setScale(2, BigDecimal.ROUND_CEILING);
         occupied = occupied;
-        raise_ = raise;
+        raise_ = raise.setScale(2, BigDecimal.ROUND_CEILING);
         offersBeforeRejections_ = offersBeforeRejections;
         rooms_ = rooms;
         houseExtras_ = houseExtras;
