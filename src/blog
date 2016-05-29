@@ -1,0 +1,19 @@
+How i am building the app.
+
+Most of my java8 learning comes from winterbe.com has alot of very good blogs.
+
+Created a basic web app using Spring boot with intelliJ. Added all the default decency i needed. Spring Core, Spring MVC, Jackson and so on.
+
+Created a basic web service where i can send a object back as JSON.
+Setup a defult api prefix api/v1/ so that if i ever decided that i wanted to improve the app i could start on V2 and
+leave all of the V1 api working as before. Its very important no to trash old API for new functionality because
+it could break functionality which might depend on the old API. So creating new endpoint is always perfered over
+destroying functionality.  It also gives the option to stop all V1 apis if i moved on.
+
+Creating a basic folder structure from a UML plan.
+
+Started to create Interfaces to layout the sekeleton of the program without getting bogged down in detail. Also created
+default function in the interfaces which should not change (Big like using a abstract class however its a required imp which
+can be overridden)
+
+

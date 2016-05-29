@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * The type The property market game application.
+ * The type The property market Game application.
  */
 @SpringBootApplication
 public class ThePropertyMarketGameApplication {

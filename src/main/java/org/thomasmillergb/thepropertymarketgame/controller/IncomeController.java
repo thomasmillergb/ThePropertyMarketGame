@@ -11,10 +11,10 @@ import java.util.ArrayList;
 
 /**
  * @author Thomas
- * Created by Thomas on 23/04/2016.
+ *         Created by Thomas on 23/04/2016.
  */
 @RestController
-public class HomeController {
+public class IncomeController {
 
     @RequestMapping(value = RestApi.home, method = RequestMethod.GET)
     public House home() {
