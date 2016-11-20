@@ -6,7 +6,7 @@
 	<groupId>org.thomasmillergb.thepropertymarketgame</groupId>
 	<artifactId>thepropertymarketgame</artifactId>
     <version>0.0.1</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>The Property Market Game</name>
     <description>A Game which simulate life and playing the Property Market</description>
